@@ -278,6 +278,12 @@ class myimage:
             return data
 
 
+#self=myimage.read(r"C:\Users\hp\Desktop\gl4\sem1\peppers.ppm")
+
+#myimage.median_filter(self.data,3)
+#print(myimage.signaltonoise(self.data,150))
+#myimage.show_with_matplotlib(self)
+
 
 
 
