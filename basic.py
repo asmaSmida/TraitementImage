@@ -8,6 +8,7 @@ from PIL import Image
 import tkinter as tk
 import PIL.ImageTk
 from collections import Counter
+from matplotlib.figure import Figure
 
 
 
@@ -85,6 +86,8 @@ def plotCumulativeHist(cumulativeHist,maxGreyLevel):
 def plotImage(arr):
     plt.clf()
     plt.imshow(arr)
+    #mngr = plt.get_current_fig_manager()
+    #mngr.window.setGeometry(400,450,540, 345)
     plt.show(block=False)
 # print(np.shape(arr))
 # print(np.shape(arr[0]))
